@@ -2,26 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Start of Homepage styles*/
+.homepage__card {
+	@apply w-56 rounded-xl;
 }
+
+.homepage__card-skills {
+	@apply border-[1px] rounded-md px-3 py-1 border-[#C1C5CF];
+}
+
+/* End of Homepage styles*/
