@@ -11,6 +11,10 @@
   "dependencies": {
     "@coreui/icons": "^3.0.1",
     "@coreui/icons-react": "^2.3.0",
+    "@emotion/react": "^11.13.5",
+    "@emotion/styled": "^11.13.5",
+    "@mui/icons-material": "^6.1.8",
+    "@mui/material": "^6.1.8",
     "@radix-ui/react-checkbox": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.0",
     "antd": "^5.22.1",

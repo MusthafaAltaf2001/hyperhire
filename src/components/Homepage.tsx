@@ -135,5 +135,3 @@ export default function Homepage({ profiles }: HomepageProps) {
         </div >
     )
 }
-
-// bg-[#E8ECFF] text-[#2C599B] rounded-lg

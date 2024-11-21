@@ -9,7 +9,6 @@ type ResponseData = {
 }
 
 export async function GET(req: NextApiRequest, res: NextApiResponse<ResponseData>) {
-    console.log(profiles)
     return NextResponse
         .json({
             message: "Success",

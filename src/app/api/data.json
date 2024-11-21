@@ -34,41 +34,5 @@
             "트위터 관리",
             "블로그 글 작성"
         ]
-    },
-    {
-        "id": 4,
-        "name": "Abhishek Gupta",
-        "field": "마케팅",
-        "years_of_experience": "2y+",
-        "skills": [
-            "마케팅 콘텐츠 제작",
-            "인스타그램 관리",
-            "트위터 관리",
-            "블로그 글 작성"
-        ]
-    },
-    {
-        "id": 5,
-        "name": "Abhishek Gupta",
-        "field": "마케팅",
-        "years_of_experience": "2y+",
-        "skills": [
-            "마케팅 콘텐츠 제작",
-            "인스타그램 관리",
-            "트위터 관리",
-            "블로그 글 작성"
-        ]
-    },
-    {
-        "id": 6,
-        "name": "Abhishek Gupta",
-        "field": "마케팅",
-        "years_of_experience": "2y+",
-        "skills": [
-            "마케팅 콘텐츠 제작",
-            "인스타그램 관리",
-            "트위터 관리",
-            "블로그 글 작성"
-        ]
     }
 ]
