@@ -1,6 +1,6 @@
-import Footer from "@/components/Footer";
-import Homepage from "@/components/Homepage";
-import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer/Footer";
+import Homepage from "@/components/Homepage/Homepage";
+import Navbar from "@/components/Navbar/Navbar";
 import { getProfiles } from "@/actions/actions";
 
 export default async function Page() {
@@ -9,7 +9,7 @@ export default async function Page() {
 
   return (
     <div className="min-h-screen h-full max-w-screen">
-      <div className="bg-gradient-to-b from-[#00B8D4] to-[#0091EA] ">
+      <div className="bg-gradient-to-b from-primary to-secondary">
         <Navbar />
         <Homepage profiles={profiles.data} />
       </div>

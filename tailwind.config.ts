@@ -16,6 +16,16 @@ const config: Config = {
 			'2xl': '1536px',
 		},
 		extend: {
+			colors: {
+				'primary': '#00B8D4',
+				'secondary': '#0091EA',
+				'tooltip-dark-bg': '#8BC4FF',
+				'tooltip-light-bg': '#E9F7EF',
+				'accent-text': '#4A77FF',
+				'primary-text': '#5E626F',
+				'primary-text-heading': '#343741',
+				'secondary-text': '#FBFF23',
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
