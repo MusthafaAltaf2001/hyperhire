@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Start of General styles */
+.page-padding {
+	@apply px-4 lg:px-16;
+}
+
+/* End of General styles */
+
 /* Start of Homepage styles*/
 .homepage__card {
 	@apply w-56 rounded-xl absolute bg-white;

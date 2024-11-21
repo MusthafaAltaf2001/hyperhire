@@ -5,12 +5,11 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div>
-            <nav className="flex items-center justify-between p-4">
-                <Link href="/" className="text-white font-bold text-xl">
-                    <Image src="/logo.svg" alt="logo" width={100} height={100} />
-                </Link>
-                {/* <div className="flex items-center gap-4">
+        <nav className="flex items-center justify-between page-padding pt-4">
+            <Link href="/" className="text-white font-bold text-xl">
+                <Image src="/logo.svg" alt="logo" width={100} height={100} />
+            </Link>
+            {/* <div className="flex items-center gap-4">
                     <Button variant="ghost" className="text-white">
                         채용
                     </Button>
@@ -21,8 +20,7 @@ const Navbar = () => {
                         문의하기
                     </Button>
                 </div> */}
-            </nav>
-        </div>
+        </nav>
     )
 }
 
