@@ -1,5 +1,3 @@
-import type { NextApiRequest, NextApiResponse } from 'next'
-
 import { NextResponse } from 'next/server'
 import profiles from '../data.json'
 
@@ -8,7 +6,7 @@ type ResponseData = {
     data: Profile[]
 }
 
-export async function GET(req: NextApiRequest, res: NextApiResponse<ResponseData>) {
+export async function GET() {
     return NextResponse
         .json({
             message: "Success",
