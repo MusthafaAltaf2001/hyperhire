@@ -9,18 +9,11 @@
 
 /* End of General styles */
 
-/* Start of Homepage styles*/
-.homepage__card {
-	@apply w-56 rounded-xl absolute bg-white;
-}
-
-.homepage__card-skills {
-	@apply border-[1px] rounded-md px-3 py-1 border-[#C1C5CF];
-}
-
-/* End of Homepage styles*/
-
 /* Start of footer styles*/
+
+.footer {
+	@apply px-4 my-8 bg-[#FBFBFB] flex flex-col gap-6 page-padding;
+}
 
 .footer__details {
 	@apply font-black space-y-4 grid grid-cols-1 md:grid-cols-2;
@@ -35,3 +28,31 @@
 }
 
 /* End of footer styles*/
+
+/* Start of Carousel styles*/
+
+.carousel {
+	@apply flex flex-row items-center justify-center content-center gap-2 pb-4 max-w-[400px] w-full relative;
+}
+
+.carousel__container {
+	@apply content-center flex justify-center h-72;
+}
+
+.carousel__container-card {
+	@apply w-56 rounded-xl absolute bg-white;
+}
+
+.carousel__container-card-content {
+	@apply flex flex-col items-center text-center gap-2;
+}
+
+.carousel__container-card-content-skills {
+	@apply text-sm flex flex-col text-primary-text font-black gap-2 items-center;
+}
+
+.carousel__container-card-content-skill-item {
+	@apply border-[1px] rounded-md px-3 py-1 border-[#C1C5CF];
+}
+
+/* End of Carousel styles*/

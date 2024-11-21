@@ -25,7 +25,7 @@ const SERVICE_CARDS = [
 
 const Footer = () => {
     return (
-        <div className='px-4 my-8 bg-[#FBFBFB] flex flex-col gap-6 page-padding'>
+        <div className='footer'>
             <div className="flex flex-col lg:flex-row">
                 <div>
                     <Image src='/logo-dark.png' width={200} height={50} alt='Dark Logo' />
